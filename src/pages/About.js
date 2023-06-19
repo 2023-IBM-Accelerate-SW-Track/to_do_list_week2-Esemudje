@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import "./About.css";
-import profile_pic from "../assets/profile_pic.jpg";
+import jay_headshot from "../assets/jay_headshot.jpg";
 
 export default class About extends Component {
   render() {
@@ -10,18 +10,20 @@ export default class About extends Component {
         <div class="split left">
           <div className="centered">
             <img
-              className="profile_image"
-              src={profile_pic}
-              alt="Profile Pic"
+              className="jay_headshot"
+              src={jay_headshot}
+              height={450}
+              width={700}
+              
+              alt="Jay Profile Pic"
             ></img>
           </div>
         </div>
         <div className="split right">
           <div className="centered">
-            <div className="name_title">Your Name</div>
+            <div className="name_title">Jay Esemudje</div>
             <div className="brief_description">
-              Tell us about yourself in a few sentences. Tell us your interests
-              and say a fun fact about yourself.
+            Hi! I'm Jay, a rising junior at Duke University, studying Electrical and Computer Engineering with a finance minor. I'm working to understand and apply the engineering principles I learn to problems within the financial sphere. When I'm not working, I enjoy watching anime and finding new recipes that I'll likely never get around to making. Fun fact: I was born in Maryland but I grew up in Lagos, Nigeria.
             </div>
           </div>
         </div>
